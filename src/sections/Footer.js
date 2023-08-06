@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-title">
                     <h2 className="footer-h2">Charity</h2>
-                    <p style={{ fontSize: 'small' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                    <p style={{ fontSize: 'small' }}>If you choose to volunteer your time, you will be able to work directly with children in need. Volunteering is a great way to give back to the community and make a difference in the lives of people in need.</p>
                 </div>
                 <div className="sitemap">
                     <p>Sitemap</p>

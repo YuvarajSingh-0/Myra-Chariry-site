@@ -413,7 +413,7 @@ input:focus{
   margin-bottom: 20px;
 }
 
-ul {
+.section ul {
   list-style-type: disc;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -452,4 +452,66 @@ h2 {
 
 .contact-info p:last-child {
   margin-bottom: 0;
+}
+
+/* Define class-based selectors for styling */
+
+.support {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.donate-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.donate-button:hover {
+  background-color: #0056b3;
+}
+
+/* ---------------Terms of Sevice----------------- */
+
+/* Define class-based selectors for styling */
+
+.terms-of-service {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.terms-of-service h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.terms-of-service h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.terms-of-service p {
+  margin-bottom: 10px;
 }
