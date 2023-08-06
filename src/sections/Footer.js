@@ -20,7 +20,7 @@ const Footer = () => {
                         <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                     </ul>
                 </div>
-                <div className="socials">
+                {/* <div className="socials">
                     <p>Socials</p>
                     <ul>
                         <li>Facebook</li>
@@ -28,14 +28,24 @@ const Footer = () => {
                         <li>Instagram</li>
                         <li>Twitter</li>
                     </ul>
-                </div>
-                <div className="contact">
+                </div> */}
+                {/* <div className="contact">
                     <p className="contact-title">Head Office</p>
                     <p className="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <div>
                         <p className="newsletter">Newsletter</p>
                         <input placeholder="Enter your Email" type="text" name='email'></input>
                     </div>
+                </div> */}
+                <div className="socials">
+                    <p>Contact</p>
+                    <ul>
+                        <li>+91 63058 17648</li>
+                        <li>
+                            <a href="mailto:yuvarajsingh170@gmail.com">yuvarajsingh170@gmail.com</a>
+                        </li>
+                        <li>Nellore, Andhra Pradesh</li>
+                    </ul>
                 </div>
             </div>
 

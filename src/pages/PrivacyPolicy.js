@@ -3,7 +3,14 @@ const PrivacyPolicy = () => {
         <div className="privacy-policy">
             <div className="header">
                 <h1>Privacy Policy</h1>
-                <p className="subheader">Effective Date: [Current Date]</p>
+                <p className="subheader">Effective Date: { 
+                    // new Date().toLocaleDateString('en-US', {
+                    //     year: 'numeric',
+                    //     month: 'long',
+                    //     day: 'numeric'
+                    // })
+                    'August 7, 2023'
+                }</p>
             </div>
             <p>
                 At MYRA, we value the privacy and security of our valued donors. This Privacy Policy outlines the information we collect, how it is used, to whom it may be disclosed, and the security practices we follow to safeguard such information. By accessing or using our website, you agree to the terms of this Privacy Policy.
@@ -68,13 +75,13 @@ const PrivacyPolicy = () => {
                         <label>MYRA</label>
                     </p>
                     <p>
-                        <label>Address:</label> [Your Address]
+                        <label>Address:</label> Nellore, Andhra Pradesh
                     </p>
                     <p>
-                        <label>Email:</label> [Your Email Address]
+                        <label>Email:</label> yuvarajsingh170@gmail.com
                     </p>
                     <p>
-                        <label>Phone:</label> [Your Contact Number]
+                        <label>Phone:</label> +91 63058 17648
                     </p>
                 </div>
                 <p>
