@@ -32,11 +32,6 @@ const Home = () => {
                         <br />
                         <br />
                         No matter how you choose to "gift a smile" to your loved ones, you can be sure that your contribution will make a difference. Your loved ones will be grateful for your thoughtfulness, and the people you help will be forever grateful for your kindness.</p>
-                    {/* <ul className="left-ul">
-                        <li className="left-li"><img alt='checkmark' src='./check.png' className='check-img' />Funds go firectly to charity  </li>
-                        <li className="left-li"><img alt='checkmark' src='./check.png' className='check-img' />Funds go firectly to charity  </li>
-                        <li className="left-li"><img alt='checkmark' src='./check.png' className='check-img' />Funds go firectly to charity  </li>
-                    </ul> */}
                 </div>
                 <div className="right">
                     <img src="./logo.jpg" alt="" />
