@@ -33,8 +33,8 @@ const Home = () => {
                         <br />
                         No matter how you choose to "gift a smile" to your loved ones, you can be sure that your contribution will make a difference. Your loved ones will be grateful for your thoughtfulness, and the people you help will be forever grateful for your kindness.</p>
                 </div>
-                <div className="right">
-                    <img src="./logo.jpg" alt="" />
+                <div className="right" style={{zIndex:-1}}>
+                    <img src="./favicon.svg" alt="" />
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
 .home {
   height: 100vh;
   background: rgb(238, 174, 202);
-    background: radial-gradient(circle at top left, rgb(241, 182, 207) 0%, rgb(239, 212, 224,0.5) 30%, rgba(148, 187, 233, 0) 50%);
+    background: radial-gradient(circle at top left, rgb(241, 182, 207) 0%, rgb(239, 212, 224,0.5) 26%, rgba(148, 187, 233, 0) 50%);
 }
 
 .navbar {
@@ -324,9 +324,10 @@ li {
   z-index: -2;
   font-size: 7rem;
   font-weight: bolder;
-  left: 33%;
+  left: 50%;
   top: 20px;
-  background: linear-gradient(to right, #1F2F98 0%, #FF004C 70%);
+  transform: translateX(-50%);
+  background: linear-gradient(to right, rgba(31, 47, 152,0.5) 0%, rgba(255,0,76,0.5) 50%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
